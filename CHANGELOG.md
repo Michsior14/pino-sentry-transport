@@ -1,5 +1,11 @@
 # pino-sentry-transport
 
+## 2.0.0
+
+### Major Changes
+
+- Update to Sentry v9, drop node < 18
+
 ## 1.4.0
 
 ### Minor Changes
