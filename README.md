@@ -6,7 +6,7 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-[//]: # ([![GitHub Workflow Status]&#40;https://github.com/tomer-yechiel/pino-sentry-transport/actions/workflows/pino-sentry-transport.yml/badge.svg?branch=main&#41;]&#40;https://github.com/tomer-yechiel/pino-sentry-transport/actions&#41;)
+[//]: # ([![GitHub Workflow Status]&#40;https://github.com/Michsior14/pino-sentry-transport/actions/workflows/pino-sentry-transport.yml/badge.svg?branch=main&#41;]&#40;https://github.com/Michsior14/pino-sentry-transport/actions&#41;)
 
 
 
@@ -16,7 +16,7 @@
 ## Installation
 
 ```shell
-npm i pino-sentry-transport
+npm i @michaukrieg/pino-sentry-transport
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import pino from "pino";
 
 const logger = pino({
     transport: {
-        target: "pino-sentry-transport",
+        target: "@michaukrieg/pino-sentry-transport",
         options: {
             sentry: {
                 dsn: "https://<key>:<secret>@sentry.io/<project>",
@@ -67,7 +67,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [npm-downloads-href]: https://npmjs.com/package/pino-sentry-transport
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/pino-sentry-transport?label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=pino-sentry-transport
-[license-src]: https://img.shields.io/github/license/tomer-yechiel/pino-sentry-transport.svg
-[license-href]: https://github.com/tomer-yechiel/pino-sentry-transport/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/Michsior14/pino-sentry-transport.svg
+[license-href]: https://github.com/Michsior14/pino-sentry-transport/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12
 [jsdocs-href]: https://www.jsdocs.io/package/pino-sentry-transport
