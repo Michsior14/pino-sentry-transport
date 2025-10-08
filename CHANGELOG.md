@@ -1,5 +1,11 @@
 # pino-sentry-transport
 
+## 2.1.0
+
+### Major Changes
+
+- Update to Sentry v10, pino v10
+
 ## 2.0.0
 
 ### Major Changes

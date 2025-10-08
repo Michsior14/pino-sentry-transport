@@ -1,6 +1,6 @@
 {
   "name": "@michaukrieg/pino-sentry-transport",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Integrates Pino and Sentry.",
   "author": "Tomer Yechiel",
   "contributors": [
@@ -43,28 +43,28 @@
     "local-release": "changeset version && changeset publish"
   },
   "devDependencies": {
-    "@arethetypeswrong/cli": "^0.18.1",
-    "@biomejs/biome": "1.9.4",
-    "@changesets/cli": "^2.29.4",
-    "@sentry/node": "^9.22.0",
-    "@sentry/types": "^9.22.0",
+    "@arethetypeswrong/cli": "^0.18.2",
+    "@biomejs/biome": "2.2.5",
+    "@changesets/cli": "^2.29.7",
+    "@sentry/node": "^10.18.0",
+    "@sentry/types": "^10.18.0",
     "@types/lodash.get": "^4.4.9",
-    "@types/node": "^22.15.21",
+    "@types/node": "^24.7.0",
     "@types/prompts": "^2.4.9",
-    "cspell": "^9.0.2",
-    "dprint": "^0.50.0",
-    "esbuild": "^0.25.4",
+    "cspell": "^9.2.1",
+    "dprint": "^0.50.2",
+    "esbuild": "^0.25.10",
     "esbuild-runner": "^2.2.2",
-    "pino": "^9.7.0",
-    "prettier": "^3.5.3",
+    "pino": "^10.0.0",
+    "prettier": "^3.6.2",
     "source-map-support": "^0.5.21",
     "tsup": "^8.5.0",
-    "typescript": "^5.8.3",
-    "vitest": "^3.1.4"
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
   },
   "peerDependencies": {
-    "@sentry/node": "^7.0.0 || ^8.0.0 || ^9.0.0",
-    "pino": "^7.0.0 || ^8.0.0 || ^9.0.0"
+    "@sentry/node": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0",
+    "pino": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0"
   },
   "volta": {
     "node": "22.16.0",
@@ -72,6 +72,6 @@
   },
   "dependencies": {
     "lodash.get": "^4.4.2",
-    "pino-abstract-transport": "^2.0.0"
+    "pino-abstract-transport": "^3.0.0"
   }
 }
